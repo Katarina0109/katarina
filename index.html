@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classic gym</title>
+    <link rel="stylesheet" href="index.css" type="text/css">
+    
+    <script type="text/javascript" src="js/jquery-2.1.3.min.js"></script>
+</head>
+<body>
+
+<div id="header-wrapper">
+    <header>
+
+        <h1 class="txt-green"> Classic gym </h1>
+        <nav class="menu">
+            <a href="index.html">Home</a>
+            <a href="#about">About</a>
+            <a href="#training">Training</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <button class="hamburger">&#9776;</button>
+		<button class="cross">&#735;</button>
+
+    </header>
+</div>
+
+<div id="slider">
+
+    <p>Don't stop when you're tired.<br>Stop when you're <span class="txt-green txt-upper">done</span></p>
+    
+    <figure>
+        <img src="images/banner-1.jpg">
+        <img src="images/banner-2.jpg">
+        <img src="images/banner-3.jpg">
+        <img src="images/banner-4.jpg">
+    </figure>
+</div>
+
+<main>
+   
+    <h2 id="about">About</h2> <!--id smo ubacili zbog linkovanja tj kada kliknemo na about da on tu dođe-->
+    <section id="first"> 
+        <article class="flexbox">
+            <img src="images/icon-1.svg" width="82" height="82" alt="medal">
+            <h3 class="txt-upper"> Award winning gym </h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur et orci nec leo aliquet eleifend.</p>
+        </article>
+
+        <article class="flexbox">
+            <img src="images/icon-2.svg" width="82" height="82" alt="weight">
+            <h3 class="txt-upper"> Award winning gym </h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur et orci nec leo aliquet eleifend.</p>
+        </article>
+
+        <article class="flexbox">
+            <img src="images/icon-3.svg" width="82" height="82" alt="protein">
+            <h3 class="txt-upper"> Award winning gym </h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur et orci nec leo aliquet eleifend.</p>
+        </article>
+
+        <article class="flexbox">
+            <img src="images/icon-4.svg" width="82" height="82" alt="equipment">
+            <h3 class="txt-upper"> Award winning gym </h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur et orci nec leo aliquet eleifend.</p>
+        </article>
+    </section>
+
+    <div id="banner2"></div>
+
+    <h2 id="training">Training</h2>
+    <section id="second">
+        <article class="kolone col-s-12 col-m-6 col-l-3">
+            <span class="txt-green">$0</span>
+            <h3 class="txt-upper">Free trial</h3>
+            <ul>
+                <li>1 Day Free Trial</li>
+                <li>1 Sauna Access</li>
+                <li>No Risks &amp; No Obligations</li>
+            </ul>
+            <button>Get it now</button>
+        </article>
+
+        <article class="kolone col-s-12 col-m-6 col-l-3">
+            <span class="txt-green">$30</span>
+            <h3 class="txt-upper">3x / week</h3>
+            <ul>
+                <li>Basic Sub</li>
+                <li>Sauna Access</li>
+                <li>Unlimited access before 10AM</li>
+            </ul>
+            <button>Get it Now</button>
+        </article>
+
+        <article class="kolone col-s-12 col-m-6 col-l-3">
+            <span class="txt-green">$50</span>
+            <h3 class="txt-upper">Unlimited Sub</h3>
+            <ul>
+                <li>Unlimited Access</li>
+                <li>Unlimited Sauna Access</li>
+                <li>Assisted Training</li>
+            </ul>
+            <button>Get it Now</button>
+        </article>
+
+        <article class="kolone col-s-12 col-m-6 col-l-3">
+            <span class="txt-green">$70</span>
+            <h3 class="txt-upper">Personal Training</h3>
+            <ul>
+                <li>Unlimited Access</li>
+                <li>Nutrition Plan</li>
+                <li>Personal Trainer</li>
+            </ul>
+            <button>Get it Now</button>
+        </article>
+    </section>
+
+    <h2 id="contact">Contact</h2>
+    <form>
+        <label for="name" class="txt-upper" >Name</label>
+        <input type="text" placeholder="Insert your name" value="" name="name" id="name">
+        
+        <label for="email" class="txt-upper">Email</label>
+        <input type="email" placeholder="Insert your Email" value="" name="email" id="email">
+
+        <label for="date" class="txt-upper">Book an appointment</label>
+        <input type="date" value="" name="date" id="date">
+
+        <input type="submit" value="SEND">
+       <!--može i ovako <button type="submit">SEND</button> --> 
+    </form>
+</main>
+
+    <div id="footer-wrapper"> 
+    <footer>
+        <p>Copyright &copy; Varga Katarina 2023</p>
+    </footer>
+    </div>
+    <script type="text/javascript" src="js/hamburger.js"></script>
+
+</body>
+</html>
