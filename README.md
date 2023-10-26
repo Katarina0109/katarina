@@ -1,2 +1,0 @@
-# katarina
-responsive gym page
